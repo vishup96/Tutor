@@ -1,0 +1,854 @@
+@media (max-width: 1600px) {
+  .side-imgs.right_img {right: 108px;}
+
+  .banner_section .yellow_ele {right: 125px;}
+
+  .green_ele {left: 190px; }
+}
+
+@media (max-width: 1440px) {
+  .side-imgs.right_img {right: 30px;}
+
+  .banner_section .yellow_ele {right: 70px; }
+
+  .girl_vector {left: 145px;}
+
+  .green_ele {left: 105px;}
+}
+
+@media (min-width: 1280px) and (max-width: 1366px) {
+  .banner_section .form-section .form-title {margin-left: 55px;}
+
+  .girl_vector {left: 200px;}
+  
+  .hero_heading {
+    font-size: 50px;
+  }
+  nav .nav-link {
+    margin-left: 0px;
+    line-height: 2;
+  }
+  .tutor-section .green_ele {
+    left: 65px;
+  }
+  .tutor-section .yellow_bg {
+    left: 25px;
+  }
+  .tutor-section .girl_vector {
+    left: 100px;
+  }
+  .improve-grades .d-flex {
+    margin-left: 30px;
+  }
+  .improve-grades .btn.btn-blue.text-white.mt-4 {
+    margin-left: 40px;
+  }
+  .register-sec .img img.yellow_ele {
+    right: -100px;
+  }
+  .banner_section form {
+    padding: 25px;
+  }
+  .btn.btn-pink {
+    padding: 14px 35px;
+  }
+  .side-imgs.left_img {
+    width: 275px;
+  }
+
+ 
+}
+
+@media (max-width: 1199.98px) {
+  .bottom-nav-item {
+    display: none;
+  }
+
+  .togglebar {
+    display: block;
+  }
+
+  .login {
+    display: none;
+  }
+  .navbar-nav.ms-auto {
+    margin-left: 0 !important;
+    text-align: center;
+  }
+  .navbar .btn-blue {
+    display: none;
+  }
+  .navbar-toggler {
+    border: none;
+    color: #000;
+  }
+  .hero_text {
+    margin: 0px 0 55px 235px;
+  }
+
+  nav .collapse-content {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 20px;
+    display: block;
+    z-index: 11;
+    transform: translateX(-100%);
+    transition: 0.4s;
+  }
+
+  nav .btn {
+    padding: 5px 30px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 35px;
+  }
+
+  .btn.bold.p-0.d-xl-none:hover {
+    border: none;
+  }
+
+  nav .collapse-content.active {
+    transform: translateX(0);
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    margin-top: 30px;
+    padding-right: 40px;
+  }
+
+  nav .nav-link {
+    margin: 12px 0;
+    padding: 0;
+  }
+
+  .banner_section .yellow_ele {
+    display: none;
+  }
+
+  nav .close_nav {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: gray;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: unset;
+  }
+
+  .banner_section .form-section .form-title {
+    margin-left: 40px;
+  }
+
+  .side-imgs.right_img {
+    display: none;
+  }
+
+  .side-imgs.left_img {
+    width: 231px;
+  }
+
+  .lesson-section .groups {
+    width: 85%;
+  }
+
+  .tutor-section {
+    padding: 90px 0 100px;
+  }
+
+  .yellow_bg {
+    width: 90%;
+  }
+
+  .girl_vector {
+    left: 115px;
+    width: 312px;
+    top: 138px;
+  }
+
+  .section_title {
+    font-size: 35px;
+  }
+
+  .tutor-section .quality h2 {
+    font-size: 45px;
+  }
+
+  .text-white {
+    padding: 15px 35px;
+    margin-top: 30px;
+  }
+
+  .section_title-grades {
+    font-size: 30px;
+    margin-left: 40px;
+    width: 80%;
+  }
+  .improve-grades .d-flex {
+    margin-left: 50px;
+  }
+  .girl {
+    width: 100%;
+  }
+
+  .boy {
+    left: 225px;
+    bottom: 180px;
+    width: 305px;
+  }
+
+  .green_ele-grades {
+    bottom: 230px;
+    left: 92px;
+  }
+
+  .sign {
+    left: 135px;
+    bottom: 140px;
+    width: 130px;
+  }
+  .cource_carousel .swiper-btn {
+    width: 40px;
+    height: 40PX;
+  }
+  .cource_carousel .swiper-button2 {
+    left: -37px;
+  }
+  .cource_carousel .swiper-button1{
+    right: -37px;
+  }
+  .feedback-sec .swiper-btn {
+    width: 40px;
+    height: 40PX;
+  }
+  .feedback-sec .swiper-button2 {
+    left: -37px;
+  }
+  .feedback-sec .swiper-button1 {
+    right: -37px;
+  }
+
+  .register-sec .img img.yellow_ele {
+    display: none;
+  }
+
+  .feedback-sec .swiper-slide .card {
+    height: 260px;
+  }
+
+  .btn.btn-yellow {
+    padding: 10px 20px;
+  }
+
+  .register-sec {
+    padding-bottom: 79px;
+  }
+
+  .register-sec .img img.girl_img {
+    left: 10px;
+    width: 401px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .hero_text {
+    margin: 0px 0 30px 55px;
+    width: 85%;
+  }
+  .hero_heading {
+    font-size: 45px;
+  }
+
+  .navbar-nav.ms-auto {
+    margin-left: 0 !important;
+    text-align: center;
+  }
+
+  .navbar .btn.btn-blue {
+    display: none;
+  }
+  nav .btn {
+    font-weight: 700;
+  }
+
+  .navbar-toggler {
+    border: none;
+    color: #000;
+  }
+
+  .banner_section .yellow_ele {
+    right: 80px;
+    top: 115px;
+    width: 115px;
+    max-width: 100%;
+  }
+
+  .banner_section form {
+    height: 105px;
+  }
+
+  .banner_section .form-section .form-title {
+    height: 105px;
+  }
+
+  select.form-select,
+  input.form-control {
+    width: 25%;
+    height: 40px !important;
+  }
+
+  .btn.btn-pink {
+    padding: 10px 35px;
+  }
+
+  .banner_section .form-title .text {
+    font-size: 18px;
+  }
+
+  .banner_section .form-title .green-txt {
+    font-size: 25px;
+  }
+
+  .banner_section {
+    height: 582px;
+  }
+
+  .lesson-section .groups .arrow {
+    width: 120px;
+  }
+
+  .lesson-section .groups .arrow.arrow_left {
+    left: 60px;
+  }
+
+  .lesson-section .groups .arrow.arrow_right {
+    right: 90px;
+  }
+
+  .tutor-section .girl_vector {
+    left: 75px;
+    top: 32px;
+    width: 245px;
+  }
+  .tutor-section .yellow_bg {
+    left: 20px;
+  }
+  .tutor-section .green_ele {
+    left: 32px;
+  }
+
+  .tutor-section .text_section h2 {
+    font-size: 28px;
+    width: 100%;
+  }
+
+  .paragraph {
+    font-size: 14px;
+    width: 95%;
+  }
+  .tutor-section .quality h2 {
+    font-size: 40px;
+  }
+
+  .quality {
+    font-size: 14px;
+  }
+
+  .quality p {
+    font-size: 13px;
+  }
+  .btn.text-yellow {
+    padding: 12px 40px;
+    margin-left: 35%;
+  }
+  .boy {
+    left: 110px;
+    bottom: 130px;
+  }
+
+  .green_ele-grades {
+    bottom: 205px;
+    left: 32px;
+  }
+
+  .sign {
+    left: 38px;
+    bottom: 115px;
+  }
+
+  .register-sec .img img.yellow_ele {
+    display: none;
+  }
+
+  .register-sec {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .register-sec .img img.black_dotted {
+    top: 55px;
+    z-index: 1;
+    left: 25px;
+  }
+
+  .register-sec .img img.girl_img {
+    top: 63px;
+    width: 300px;
+  }
+
+  .register-sec .img img.green_vector {
+    top: 65px;
+  }
+
+  .register-sec .text {
+    margin-top: 130px;
+  }
+
+  footer .title_lg {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 800px) {
+  nav .btn {
+    margin: 0 0 0 50px;
+  }
+
+  .navbar .btn.btn-blue {
+    display: none;
+  }
+  nav .btn {
+    font-weight: 700;
+  }
+
+  .navbar-toggler {
+    border: none;
+    color: #000;
+  }
+
+  .navbar-nav.ms-auto {
+    margin-left: 0px !important;
+    text-align: center;
+  }
+
+  .hero_heading {
+    font-size: 40px;
+  }
+
+  .banner_section {
+    height: 570px;
+  }
+
+  .girl_vector {
+    left: 75px;
+    top: 98px;
+  }
+
+  .green_ele {
+    left: 45px;
+  }
+
+  .section_title-grades {
+    font-size: 30px;
+    max-width: 65%;
+  }
+
+  .heading {
+    font-size: 16px;
+  }
+
+  .grades img {
+    width: 30px;
+    margin-bottom: 75px;
+  }
+
+  .grades .text p {
+    max-width: 65%;
+  }
+  .girl {
+    width: 85%;
+  }
+  .improve-grades .d-flex {
+    margin-left: 0px;
+  }
+  .boy {
+    width: 260px;
+    left: 110px;
+    bottom: 315px;
+  }
+  .green_ele-grades {
+    display: none;
+  }
+  .sign {
+    bottom: 300px;
+  }
+  .improve-grades .d-flex img {
+    margin-bottom: 50px;
+  }
+  .text_box {
+    width: 400px;
+  }
+  .cource_carousel .swiper-button1 {
+    right: -35px;
+  }
+
+  .cource_carousel .swiper-button2 {
+    left: -35px;
+  }
+
+  .feedback-sec .swiper-button1 {
+    right: -35px;
+  }
+
+  .feedback-sec .swiper-button2 {
+    left: -35px;
+  }
+
+  .btn.text-yellow {
+    margin-left: 33%;
+  }
+
+  .tutor-section {
+    padding: 70px 0 100px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  nav .btn {
+    margin: 0 0 0 5px;
+  }
+  .side-imgs.left_img {
+    display: none;
+  }
+
+  .navbar .btn.btn-blue {
+    display: none !important;
+  }
+
+  .banner_section .yellow_ele {
+    display: none;
+  }
+
+  .hero_heading {
+    font-size: 30px;
+  }
+
+  .hero_text {
+    margin: 0px 0 30px 40px;
+    font-size: 15px;
+  }
+
+  .hero_heading {
+    padding-top: 55px;
+  }
+
+  .banner_section .form-section .form-title::after {
+    display: none;
+  }
+
+  .banner_section form {
+    height: auto;
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .banner_section .form-section .form-title {
+    height: auto;
+    width: 345px;
+    padding: 10px;
+  }
+
+  .navbar-nav.ms-auto {
+    text-align: center;
+    margin: 0px !important;
+  }
+
+  .svg-inline--fa.fa-cart-shopping {
+    display: none;
+  }
+
+  select.form-select,
+  input.form-control {
+    height: 45px !important;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+
+  .btn.btn-pink {
+    padding: 10px 122px;
+    margin-left: 0px;
+    font-size: 14px;
+  }
+
+  .banner_section {
+    height: 550px;
+  }
+
+  .banner_section .form-section .form-title {
+    margin-left: 0px;
+  }
+
+  .lesson-section .groups .arrow {
+    display: none;
+  }
+
+  .lesson-section .group.group_bottom {
+    margin-top: 45px;
+  }
+
+  .row.justify-content-center.lesson_margin-top {
+    margin-top: 0px;
+  }
+
+  .img_section {
+    display: none;
+  }
+
+  .section_title {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  .tutor-section .quality h2 {
+    font-size: 40px;
+  }
+
+  .btn.text-yellow {
+    margin-left: 27%;
+  }
+
+  .text-white {
+    margin-left: 140px;
+  }
+
+  .btn.btn-blue.text-white.mt-4 {
+    margin-left: 160px !important;
+  }
+
+  .lesson-section .section_title.text-white {
+    margin-left: 0px;
+  }
+
+  .lesson-section .group .group_text {
+    margin-bottom: 50px;
+  }
+
+  .courses-section .btn.btn-blue.text-white {
+    margin-left: 30px;
+  }
+
+  .register-sec .text {
+    margin-top: 70px;
+  }
+
+  .register-sec .img img.green_vector {
+    width: 75%;
+    left: 100px;
+  }
+
+  .register-sec .img img.girl_img {
+    left: 110px;
+  }
+
+  .feedback-sec .swiper-slide .card {
+    height: 260px;
+    width: 350px;
+  }
+
+  .quid-tutor {
+    text-align: center;
+  }
+
+  footer {
+    padding: 20px 0 50px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .header_margin {
+    margin: 0px;
+  }
+
+  .side-imgs.left_img {
+    display: none;
+  }
+  .navbar .btn.btn-blue {
+    display: none;
+  }
+
+  nav .navbar-brand {
+    font-size: 30px;
+  }
+  .tutor-section .img_section {
+    display: none;
+  }
+  nav .btn {
+    font-weight: 700;
+  }
+  .btn.bold.p-0.d-xl-none:hover {
+    color: #0a58ca;
+  }
+
+  .navbar-toggler {
+    border: none;
+    color: #000;
+  }
+
+  .navbar-nav.ms-auto {
+    text-align: center;
+    margin-left: 0px !important;
+  }
+
+  .banner_section .yellow_ele {
+    display: none;
+  }
+
+  .hero_heading {
+    font-size: 30px !important;
+    padding-top: 45px;
+  }
+
+  .hero_text {
+    margin: 0px 0 24px 5px;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .banner_section {
+    height: 505px;
+  }
+
+  .hero_heading {
+    font-size: 55px;
+  }
+
+  .banner_section form {
+    height: auto;
+    flex-direction: column;
+    padding: 15px;
+    width: 305px;
+  }
+
+  .banner_section .form-section .form-title {
+    height: 186px;
+    width: 132px;
+    padding: 10px;
+  }
+
+  .banner_section .form-section .form-title::after {
+    display: none;
+  }
+
+  select.form-select,
+  input.form-control {
+    height: 45px !important;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 0px !important;
+  }
+
+  .banner_section .form-section .form-title {
+    margin-left: 0px;
+  }
+
+  .form-section.d-flex {
+    margin-left: 10px;
+  }
+
+  .lesson-section .groups .arrow {
+    display: none;
+  }
+
+  .lesson-section .group.group_bottom {
+    margin-top: 45px;
+  }
+
+  .container.text-center h2 {
+    margin-bottom: 0px;
+  }
+
+  .row.justify-content-center.lesson_margin-top {
+    margin-top: 0px;
+  }
+
+  .group.group_bottom h4 {
+    margin-bottom: 45px;
+  }
+
+  .tutor-section.position-relative .img_section {
+    display: none;
+  }
+
+  .tutor-section .quality h2 {
+    font-size: 40px;
+  }
+
+  .tutor-section .btn.btn-blue.text-white {
+    margin-left: 112px;
+  }
+
+  .btn.text-yellow {
+    margin-left: 26%;
+  }
+
+  .improve-grades .img_section {
+    display: none;
+  }
+
+  .btn.btn-blue.text-white.mt-4 {
+    margin-left: 130px;
+  }
+
+  .cource_card {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .cource_carousel .swiper-button2 {
+    left: -5px;
+  }
+
+  .cource_carousel .swiper-button1 {
+    right: -5px;
+  }
+
+  .register-sec .btn.btn-blue.text-white.mt-4 {
+    margin-left: 90px;
+  }
+
+  .register-sec .img.position-relative {
+    display: none;
+  }
+  .register-sec .text {
+    padding: 50px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .feedback-sec .swiper-slide .card {
+    height: 223px;
+    width: 305px;
+  }
+
+  .feedback-sec .swiper-button1 {
+    right: 5px;
+  }
+
+  .feedback-sec .swiper-button2 {
+    left: 5px;
+  }
+
+  .quid-tutor {
+    text-align: center;
+  }
+}
